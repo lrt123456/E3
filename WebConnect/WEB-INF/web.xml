@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Dynamic_programmin</servlet-name>
+    <servlet-class>Dong_Tai.Dynamic_programmin</servlet-class>
+  </servlet>
+  
+    <servlet-mapping>
+    <servlet-name>Dynamic_programmin</servlet-name>
+    <url-pattern>/Dynamic_programmin</url-pattern>
+  </servlet-mapping>
+  
+<!--配置和映射Servlet-->
+<!--配置Servlet-->  
+<!-- 回溯 -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HSSFTest</servlet-name>
+    <servlet-class>Hui_Su.HSSFTest</servlet-class>
+  </servlet>
+  
+    <servlet-mapping>
+    <servlet-name>HSSFTest</servlet-name>
+    <url-pattern>/HSSFTest</url-pattern>
+  </servlet-mapping>
+  
+ <!-- 动态 -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Dynamic_programming</servlet-name>
+    <servlet-class>Dong_Tai.Dynamic_programming</servlet-class>
+  </servlet>
+  
+    <servlet-mapping>
+    <servlet-name>Dynamic_programming</servlet-name>
+    <url-pattern>/Dynamic_programming</url-pattern>
+  </servlet-mapping>
+  
+<!-- 遗传 --> 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>Yi_Chuan.Test</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+
+</web-app>
